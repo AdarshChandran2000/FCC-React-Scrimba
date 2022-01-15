@@ -1,0 +1,2 @@
+* u can easily add react to the html file by importing few scripts.
+* this is easy way but not the normal and ideal way doing.
