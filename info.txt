@@ -1,2 +1,16 @@
 * u can easily add react to the html file by importing few scripts.
 * this is easy way but not the normal and ideal way doing.
+
+* why React? Its composable, its declarative, its a hirable skill, its actively maintained by skilled people
+
+
+* The code we write inside ReactDOM.render is JSX (Javascript XML);
+* if we try printing a JSX element, it will actually return a JS object. 
+* images/react1.jpg
+* make sure only one element is there in JSX, or else there will be error (wrap everything inside a DIV)
+
+* ReactDOM.render only can render JSX. if u use .append() function, it ll only return an object.
+ 
+ * React should be imported inorder for JSX to be return
+
+* components are basically calling functions in react. use Pascalcase for components as convention and <Nav /> use this.
