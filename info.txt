@@ -10,7 +10,11 @@
 * make sure only one element is there in JSX, or else there will be error (wrap everything inside a DIV)
 
 * ReactDOM.render only can render JSX. if u use .append() function, it ll only return an object.
- 
  * React should be imported inorder for JSX to be return
 
 * components are basically calling functions in react. use Pascalcase for components as convention and <Nav /> use this.
+
+* export default Navbar;  ( default is used when only one function or variable is passed );
+* the default extension for imports is .js, so you won't have to tell the extension specifically.
+* npx create-react-app firstApp  // creates react app
+* npm start // 
