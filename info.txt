@@ -34,38 +34,6 @@ li a // means all a's inside li, be it children or grandchildren.
 li, a // means both li and a 
 
 
-ONLINE COLOR TOOLS: 
-    https://htmlcolorcodes.com/
-    https://coolors.co     
-    */
+React can detect JS arrays and will print it as plain text 
+['Bob', 'Alice'] inside JSX will print /* BobAlice */ in the screen
 
-
-    padding and border can change size of the item, but margins doesnt
-    inine elements (like span, b, a etc) won't get affected by height and width, but block elements does (div, nav, h1-h6) 
-                                                         block =( by default in new line and have full width)
-    inline elements can be manipulated using display: inline-block , but won't have newline by default like block elements
-    for hiding, there are 3 properties
-    display: none;         // treats like object doesn't exist at all
-    visibility: hidden;    // just hides it (position would be the same)
-    opacity: 0;             //          ,,                ,,
-
-    
-    @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
-    font-family: 'Black Han Sans', arial, sans-serif; // imported from google above the first one,
-    // if the browser doesnt find first one, it ll go to the second, and so on.
-
-
-    float and clear : used to change to flow of block elements. float: left. clear: both/left/right    clear used right after a particular float
-
-
-    position: absolute/relative/fixed ; 
-
-
-    pseduo classes (:) and pseduo elements (::)
-
-                ul li:nth-child(even) a {
-                color: tomato;
-            }
-            ul a:hover::before {   // adds -> before the ul while hovering
-                content: "⇨  ";
-            }

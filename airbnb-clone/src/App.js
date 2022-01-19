@@ -1,8 +1,13 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Card from "./components/Card";
 
 const App = () => {
   return (
     <div className="App">
-      App component
+      <Navbar />
+      <Hero />
+      <Card />
     </div>
   );
 }
