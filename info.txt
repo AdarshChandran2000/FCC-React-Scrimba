@@ -37,3 +37,7 @@ li, a // means both li and a
 React can detect JS arrays and will print it as plain text 
 ['Bob', 'Alice'] inside JSX will print /* BobAlice */ in the screen
 
+You can use a spread operator to send props, similar to sending the entire object.
+spread operator will already divide all the values inside the object with the same name. 
+{...item} is equivalent to  name=item.name id=item.id etc
+passing entire item as prop can also be done.. but then in the fetching page, use props.item.name
