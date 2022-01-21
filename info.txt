@@ -41,3 +41,26 @@ You can use a spread operator to send props, similar to sending the entire objec
 spread operator will already divide all the values inside the object with the same name. 
 {...item} is equivalent to  name=item.name id=item.id etc
 passing entire item as prop can also be done.. but then in the fetching page, use props.item.name
+
+
+states are used whenever we want the screen to refresh and update the change if the variable is changed 
+
+in ES6, Computed property names in JS helps us to use dynamic strings as JS properties 
+{ 
+    ...objectName,
+    [event.target.name] : event.target.values 
+}
+
+
+Somethings can't be handled by React alone, they are,
+* local storage
+* API / database instructions
+* subscriptions (eg: web sockets)
+* syncing 2 different internal states together
+
+
+All these above issues can be avoided using useEffect hook
+
+useEffect runs after running the entire JSX elements only
+useEffect will always run in the first render, and then it will only render again, when any one value inside dependency array (2nd parameter) changes
+
