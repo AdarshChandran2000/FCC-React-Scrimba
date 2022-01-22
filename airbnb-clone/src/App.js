@@ -3,6 +3,15 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 
 const App = () => {
+
+  useEffect(() => {
+    first;
+  
+    return () => {
+      second;
+    };
+  }, [third]);
+  
   return (
     <div className="App">
       <Navbar />

@@ -64,3 +64,14 @@ All these above issues can be avoided using useEffect hook
 useEffect runs after running the entire JSX elements only
 useEffect will always run in the first render, and then it will only render again, when any one value inside dependency array (2nd parameter) changes
 
+usestate is also initalized the first time. when the value of the state changes, it actually runs the entire JSX component therefore 
+running all the multiple states inside it (which is troublesome for heavy jobs like local storage pulling data). to avoid that, use a 
+function as the parameter of the useState() function instead of a variable, so that the state will only run when the value changes.
+This process is called Lazy State Initialization.
+
+
+onClick={(event) => props.deleteNote(event, note.id)}
+can be used if we have parameters other than event, then do it this way.
+
+
+
